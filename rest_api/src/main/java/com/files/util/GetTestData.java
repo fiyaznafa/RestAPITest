@@ -6,4 +6,15 @@ public class GetTestData {
 		String postResource="/maps/api/place/add/json";
 		return postResource;
 	}
+	
+	public static String postDataResourceLibApi(){
+		String postResource="/Library/Addbook.php";
+		return postResource;
+	}
+	
+	public static String postDataDeleteResourceLibApi(){
+		String postResource="/Library/DeleteBook.php";
+		return postResource;
+	}
+	
 }
